@@ -1,6 +1,10 @@
+import org.junit.Test;
 
 public class Exercise1Java7 {
 
-    // fill in the code here
-
+    @Test
+    public void letsGoChamp() {
+        // fill in the code here
+        System.out.println("#letsgochamp!");
+    }
 }
