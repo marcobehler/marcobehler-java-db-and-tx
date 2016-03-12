@@ -20,6 +20,7 @@ public final class OpenConnectionExerciseJava7Test {
 			final String message = "Are we connected to the database? : %s%n"; //NON-NLS
 			System.out.printf(message, isConnectionValid);
 			statement.execute("CREATE TABLE bids (id IDENTITY, user VARCHAR, time TIMESTAMP, amount NUMBER, currency VARCHAR)");
+			statement.execute("CREATE TABLE winning_bids (bid_id NUMBER, item_id NUMBER)");
 			assertTrue(true);
 		} catch (SQLException e) {
 			final String message = "An SQL error occured : %s"; //NON-NLS
