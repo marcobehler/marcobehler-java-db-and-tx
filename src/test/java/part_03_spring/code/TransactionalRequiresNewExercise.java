@@ -66,7 +66,7 @@ public class TransactionalRequiresNewExercise {
         @Autowired
         private DataSource ds;
 
-        @Resource(name = MySpringConfig.BANKTELLER_ID)
+        @Autowired
         private BankTeller self;
 
         // here spring opens up a connection + tx

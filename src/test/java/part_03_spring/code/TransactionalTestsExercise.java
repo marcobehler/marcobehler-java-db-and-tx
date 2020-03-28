@@ -67,7 +67,7 @@ public class TransactionalTestsExercise {
         @Autowired
         private DataSource ds;
 
-        @Resource(name = "bankTeller")
+        @Autowired
         private BankTeller self;
 
 

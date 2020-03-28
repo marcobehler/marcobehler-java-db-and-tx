@@ -66,7 +66,7 @@ public class TransactionalNestedExercise {
         @Autowired
         private DataSource ds;
 
-        @Resource(name = "bankTeller")
+        @Autowired
         private BankTeller self;
 
         // here spring opens up a connection + tx

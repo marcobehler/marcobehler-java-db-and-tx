@@ -44,7 +44,7 @@ public class CallingYourselfExercise {
 
     public static class BankTeller {
 
-        @Resource(name = MySpringConfig.BANKTELLER_ID)
+        @Autowired
         private BankTeller self;
 
 
